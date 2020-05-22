@@ -1,0 +1,447 @@
+@media (max-width: 1366px){
+    .slider_content h2{
+        font-size: 80px;
+        margin-bottom: 0;
+    }  
+    .slider_content h3{
+        letter-spacing: 18px;
+    }
+    .slider_content_two h2{
+        font-size: 100px;
+    }
+}
+
+@media (max-width: 1199px){
+    .service_right .service_right_content{
+        max-width: 100%;
+        padding-left: 70px;
+        padding-right: 90px;
+    }
+    .service_right .service_right_content .service_item_three{
+        padding-right: 0;
+    }
+    .about_story{
+        padding: 0px;
+    }
+    .about_img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .action_area .theme_btn_two {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .blog_item .theme_btn {
+        padding: 11px 56px;
+    }
+    .get_info .get_info_item .round_icon{
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        margin-right: 7px;
+    }
+    .mac_img{
+        margin-left: -100px;
+    }
+    .mac_img img{
+        max-width: 100%;
+    }
+    .get_info .get_info_item .media-body p{
+        line-height: 28px;
+    }
+    .about_img_inner{
+        margin-left: 0;
+    }
+    .service_item_two img,.blog_item .blog_img img,.team_item img,.about_area_three .about_img_inner .img_first img{
+        max-width: 100%;
+    }
+    .promo_content h2{
+        letter-spacing: 1.2px;
+    }
+    .service_left_img{
+        background-size: cover !important;
+    }
+    .service_left,.service_right{
+        width: 50%;
+    }
+    .about_area_three .about_img_inner .img_three{
+        width: 400px;
+        height: 400px;
+    }
+    .post_details_content .post_text img{
+        margin-left: 0px;
+    }
+    .post_details_content .post_text_two img{
+        margin-right: 0px;
+        margin-left: 30px;
+    }
+    .related_post_area .related_post .theme_btn{
+        min-width: 133px;
+        padding: 11px 18px;
+    }
+}
+
+@media (max-width: 991px){
+    .slider_content{
+        padding-top: 30px;
+    }
+    .project_img img{
+        width: 100%;
+    }
+    .footer_bottom .f_menu li + li{
+        margin-left: 5px;
+    }
+    .slider_content h3{
+        letter-spacing: 10px;
+    }
+    .slider_content p{
+        font-size: 18px;
+        line-height: 33px;
+    }
+    .service_area .row,.team_area .row,.price_area .row{
+        justify-content: center;
+        margin-bottom: -30px;
+    }
+    .service_item,.team_item,.price_area .col-md-6{
+        margin-bottom: 30px;
+    }
+    .action_area{
+        padding: 80px 0px;
+    }
+    .action_area,.action_area .text-right{
+        text-align: center !important;
+    }
+    .action_area .theme_btn_two{
+        margin-top: 30px;
+    }
+    .blog_item{
+        max-width: 570px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .promo_content h2{
+        letter-spacing: 0px;
+        font-size: 65px;
+        line-height: 70px;
+    }
+    .mac_img{
+        margin-left: 0;
+        margin-bottom: 50px;
+    }
+    .fact_area .d-flex,.service_area_two .row{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .fact_item {
+        width: calc(100% / 3);
+        margin-bottom: 30px;
+    }
+    .f_widget .f_title{
+        margin-bottom: 7px;
+    }
+    .f_widget,.clients_log_item{
+        margin-bottom: 30px;
+    }
+    .footer_top{
+        padding-bottom: 50px;
+    }
+    .about_content_two .section_tilte{
+        padding-top: 0;
+    }
+    .about_img_inner{
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-top: 60px;
+    }
+    .testimonial_inner:hover .slick-arrow.slick-next{
+        right: 0;
+    }
+    .testimonial_inner:hover .slick-arrow.slick-prev{
+        left: 0;
+    }
+    .promo_area{
+        padding: 150px 0px;
+    }
+    .clients_logo_area .row{
+        margin-bottom: -30px;
+    }
+    .promo_content h2 br{
+        display: none;
+    }
+    .fact_area_two .d-flex{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .about_area_three .about_img_inner{
+        margin-left: 0;
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+    .design_img{
+        margin-bottom: 40px;
+    }
+    .service_left, .service_right{
+        width: 100%;
+    }
+    .service_area_three{
+        display: block;
+    }
+    .service_left{
+        height: 500px;
+    }
+    .breadcrumb_area{
+        padding: 200px 0px 150px;
+    }
+    .post_social_link{
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    .post_social_link .theme_btn_two{
+        margin: 5px;
+        min-width: 220px;
+    }
+    .menu > .nav-item,.navbar_fixed .menu > .nav-item{
+        padding: 5px 0px;
+    }
+    .menu > .nav-item + .nav-item{
+        margin-left: 0;
+    }
+    .navbar-nav.md-none{
+        display: none;
+    }
+    .mobile-search{
+        display: block;
+        margin-right: 20px;
+    }
+    .menu{
+        background: #fff;
+        padding: 10px 20px;
+    }
+    .menu > .nav-item > .nav-link{
+        color: #131313;
+        display: inline-block;
+    }
+    .menu > .nav-item.active .nav-link:before,.menu > .nav-item.active .nav-link:hover:before{
+        background: #131313;
+    }
+    .navbar-brand{
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .navbar_fixed .hamburger span,.navbar_fixed .menu_toggle .hamburger-cross span{
+        background: #131313;
+    }
+}
+
+@media (max-width:767px){
+    .home_slider_area{
+        height: 590px;
+    }
+    .home_slider_area .slider_content{
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+    .slider_content{
+        padding-top: 0px;
+    }
+    .slider_content h2{
+        letter-spacing: 0px;
+        font-size: 70px;
+    }
+    .slider_content h3{
+        font-size: 40px;
+        letter-spacing: 1px;
+    }
+    .about_story .media{
+        display: block;
+    }
+    .about_story .a_image{
+        margin-right: 0;
+        background-position: -35% 96%;
+        margin-bottom: 40px;
+    }
+    .promo_content h2{
+        font-size: 50px;
+    }
+    .promo_area{
+        padding: 140px 0px 150px;
+    }
+    .team_item .team_content ul li{
+        margin: 0px 4px;
+    }
+    .parallax_effect{
+        background-size: cover !important;
+    }
+    .service_item_two{
+        max-width: 370px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about_img_inner{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .slider_content_two h2{
+        padding-left: 0;
+    }
+    .slider_content_two .border_top{
+        width: 170px;
+    }
+    .footer_bottom,.footer_bottom .text-right{
+        text-align: center !important;
+    }
+    .home_slider_area .swiper-button-prev, .home_slider_area .swiper-button-next{
+        width: 50px;
+        height: 50px;
+    }
+    .home_slider_area .swiper-button-prev:before, .home_slider_area .swiper-button-next:before{
+        line-height: 50px;
+        font-size: 20px;
+    }
+    .service_left{
+        height: 400px;
+    }
+    .creative_design_content p{
+        margin-bottom: 0;
+    } 
+    .fact_area_two{
+        padding: 80px 0px 70px;
+    }
+    .portfolio_filter .portfolio_item + .portfolio_item {
+        margin-left: 15px;
+    }
+    .blog_item.related_post .blog_img img{
+        width: 100%;
+    }
+    .post_details_content .post_text img{
+        float: none;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 25px;
+        max-width: 100%;
+    }
+    .post_details_content .post_text_two {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:576px){
+    .slider_content .theme_btn_two{
+        margin-left: 0;
+        margin-top: 8px;
+    }
+    .slider_content h2,.main_slider_three .slider_content_three h2{
+        font-size: 50px;
+    }
+    .slider_content h3{
+        font-size: 32px;
+    }
+    .image_three{
+        right: 75px;
+    }
+    .about_img .image_one img, .about_img .image_two img, .about_img .image_three img{
+        max-width: 90%;
+    }
+    .section_tilte h2{
+        font-size: 32px;
+        letter-spacing: 0px;
+    }
+    .blog_item .blog_content, .blog_item .blog_button_inner{
+        padding: 30px 15px;
+    }
+    .promo_content .theme_btn_two{
+        margin-left: 0;
+    }
+    .team_item{
+        max-width: 290px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fact_item {
+        width: calc(100% / 2);
+    }
+    .footer_bottom p, .footer_bottom a{
+        font-size: 12px;
+    }
+    .breadcrumb_content h1{
+        font-size: 41px;
+    }
+    .blog_item .title_head{
+        letter-spacing: 0px;
+    }
+    .related_post .blog_button_inner{
+        padding: 0px;
+    }
+    .post_details_content h2{
+        letter-spacing: 0px;
+    }
+    .post_details_content blockquote{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .comment_author{
+        display: block;
+    }
+    .comment_author .img_rounded{
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:476px){
+    .slider_content h2{
+        font-size: 43px;
+    }
+    .slider_content_two h2{
+        font-size: 55px;
+        line-height: 65px;
+    }
+    .about_story .a_image{
+        background-position: center;
+    }
+    .image_three{
+        right: 26px;
+    }
+    .promo_content h2 {
+        font-size: 41px;
+        line-height: 52px;
+    }
+    .fact_item {
+        width: 100%;
+    }
+    .about_img_inner .img_three {
+        height: 395px;
+        width: 315px;
+    }
+    .about_img_inner .img_three img{
+        max-width: 100%;
+    }
+    .blog_item .blog_img .video_icon{
+        width: 70px;
+        height: 70px;
+        line-height: 60px;
+    }
+    .blog_item .blog_button_inner{
+        display: block;
+    }
+    .service_right .service_right_content{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .about_area_three .about_img_inner .img_three{
+        height: 290px;
+        width: 290px;
+        left: auto;
+        right: 0;
+    }
+}
+
+@media (max-width: 420px){
+    .about_img_inner .img_three {
+        height: 363px;
+        width: 290px;
+    }
+    .about_img_inner .img_two{
+        display: none;
+    }
+}
