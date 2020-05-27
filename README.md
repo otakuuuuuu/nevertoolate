@@ -13,4 +13,4 @@ Wed 27 May, 2020
 - Add SQL files into the package
 
 Thu 21 May, 2020
-- Proudly, we finished implement all the features, and moved the code from Azure to GitHub. :)
+- Proudly, we finished implement all the features, and brought all the code to GitHub :)
