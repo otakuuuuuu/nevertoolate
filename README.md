@@ -6,3 +6,4 @@ Wed 27 May, 2020
 - Move javascript and css languages out of .php, now have seperate files linked to each .php
 - Modify the gap from calculator page
 - Fix the error in map page
+- Add SQL files into the package
