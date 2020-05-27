@@ -7,3 +7,6 @@ Wed 27 May, 2020
 - Modify the gap from calculator page
 - Minor enhancements & bug fixes
 - Add SQL files into the package
+
+Thu 21 May, 2020
+Proudly, we finished implement all the features, and moved the code from Azure to GitHub. :)
