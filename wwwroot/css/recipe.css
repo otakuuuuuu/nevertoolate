@@ -1,0 +1,82 @@
+
+    #autoBox
+
+    {
+
+      margin: 0px;
+
+      padding: 0px;
+
+      border: 1px solid #CCCCCC;
+
+
+
+    }
+
+    #autoBox li
+
+    {
+
+      clear: both;
+
+      background-color: white;
+
+      color: black;
+
+      position: relative;
+
+      top: 0px;
+
+      left: 0px;
+
+      line-height: 25px;
+
+
+      text-align: left;
+
+      overflow: hidden;
+
+    }
+
+    #autoBox li:hover
+
+    {
+
+      background-color: gray;
+
+      color: yellow;
+
+      cursor: pointer;
+
+    }
+    #menu
+
+    {
+        height:220px;
+     padding: 0px;
+     
+    }
+        #shabi:hover
+
+    {
+
+      background-color: gray;
+
+      color: yellow;
+
+      cursor: pointer;
+
+    }
+    #steprecipe{
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack:justify ;
+    justify-content: space-between;
+
+    }
+    #goUp{
+  cursor: pointer;
+}
+#goUp1{
+  cursor: pointer;
+}

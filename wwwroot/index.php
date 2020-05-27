@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="vendors/animation/animate.css">
     <!-- Page CSS -->
     <link rel="stylesheet" href="vendors/swiper/css/swiper.min.css"> 
-    <link rel="stylesheet" href="css/style.css?v=16">
+    <link rel="stylesheet" href="css/style.css?v=27">
     <link rel="stylesheet" href="css/responsive.css">
     <title>never too late</title>
 </head>
@@ -104,6 +104,7 @@
     <!-- Slider Windows -->
     
     <!-- Service Area -->
+    <!-- More icon options can be found in vendors/flatcion/flaticon.css -->
     <section class="service_area bg_color sec_pad"><div class="container">
         <div class="section_tilte text-center"><h6 class="wow fadeInUp">The Services</h6>
         <h2 class="wow fadeInUp" data-wow-delay="0.2s">Our 3-step approach for a more nutritional diet!</h2></div>
@@ -180,26 +181,17 @@
     </footer>
     <!-- Footer Area -->
     
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- JavaScript -->
     <script src="static/jquery-3.2.1.min.js"></script>
     <script src="vendors/bootstrap/js/popper.min.js"></script>
     <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
-    <script src="js/jquery.parallax-scroll.js"></script>
-    <script src="vendors/imagesloaded/imagesloaded.pkgd.min.js"></script>
-    <script src="vendors/isotope/isotope-min.js"></script>
+
     <script src="vendors/slick/slick.min.js"></script>
     <script src="js/parallaxie.js"></script>
-    <script src="vendors/counterup/jquery.counterup.min.js"></script>
-    <script src="vendors/counterup/jquery.waypoints.min.js"></script>
-    <script src="vendors/magnify-pop/jquery.magnific-popup.min.js"></script>
-    <script src="vendors/swiper/js/swiper.min.js"></script>
+     <script src="vendors/swiper/js/swiper.min.js"></script>
     <script src="vendors/wow/wow.min.js"></script>
-    <!--Contact Form-->
-    <script src="js/jquery.form.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/contact.js"></script>    
-    <script src="js/main.js?v=2"></script>
+    
+    <script src="js/main.js?v=5"></script>
 </body>
 
 </html>

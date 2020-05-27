@@ -1,0 +1,148 @@
+#autoBox
+    {
+      margin: 0px;
+      padding: 0px;
+      border: 1px solid #CCCCCC;
+    }
+
+    #autoBox li
+    {
+      clear: both;
+      background-color: white;
+      color: black;
+      position: relative;
+      top: 0px;
+      left: 0px;
+      line-height: 25px;
+      text-align: left;
+      overflow: hidden;
+    }
+
+    #autoBox li:hover
+    {
+      background-color: gray;
+      color: yellow;
+      cursor: pointer;
+    }
+    
+    
+    #shabi:hover
+    {
+      background-color: gray;
+      color: yellow;
+      cursor: pointer;
+    }
+    
+    * 
+    {
+      -webkit-box-sizing:border-box;
+      -moz-box-sizing:border-box;
+      box-sizing:border-box;
+    }
+
+    .sidebar {
+      position:absolute;
+      margin-top: 700px;
+      width:25%;
+      height:633px;
+      top:520px;
+      left:0px;
+      overflow:hidden;
+      border-right:1px solid rgba(0,0,0,0.25);
+    }
+    
+    .pad2 {
+      padding:20px;
+    }
+
+    .map {
+      border:5px solid black;
+      margin-top: 700px;
+      position:absolute;
+      left:25%;
+      width:75%;
+      height:633px;
+      top:520px;
+    }
+
+    h1 {
+      font-size:25px;
+      margin:0;
+      font:400;
+      line-height: 20px;
+      padding: 20px 2px;
+    }
+
+    a {
+      color:#404040;
+      text-decoration:none;
+    }
+
+    a:hover {
+      color:#101010;
+    }
+
+    .heading {
+      background:#fff;
+      border-bottom:1px solid #eee;
+      min-height:60px;
+      line-height:60px;
+      padding:0 10px;
+      background-color: rgb(223, 238, 240);
+      color: #fff;
+    }
+
+    .listings {
+       height:100%;
+       overflow:auto;
+       padding-bottom:60px;
+       weight:100%;
+    }
+
+    .listings .item {
+       display:block;
+       border-bottom:1px solid #eee;
+       padding:10px;
+       text-decoration:none;
+    }
+
+    .listings .item:last-child { border-bottom:none; }
+    
+    .listings .item .title {
+       display:block;
+       color:#00853e;
+       font-weight:700;
+     }
+
+     .listings .item .title small { font-weight:400; }
+     
+     .listings .item.actives .title,
+     
+     .listings .item .title:hover { color:#8cc63f; }
+     
+     .listings .item.actives {
+       background-color:#f8f8f8;
+     }
+        
+     #result{
+       height:100%;
+       width:75%;          
+     }
+     
+     #calculator_area{
+       height:100%;
+       width:75%;
+     }
+     
+     #start{
+       height:100%;
+       width:75%;
+     }
+        
+    #father{
+       display:flex; 
+       justify-content:center;
+       height:100%;
+       width:100%;
+       margin-top:5%;
+    }
