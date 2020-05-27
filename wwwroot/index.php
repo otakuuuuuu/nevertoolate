@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="vendors/flaticon/flaticon.css">
+    <link rel="stylesheet" href="vendors/flaticon/flaticon.css?v=2">
     <link rel="stylesheet" href="vendors/animation/animate.css">
     <!-- Page CSS -->
     <link rel="stylesheet" href="vendors/swiper/css/swiper.min.css"> 
@@ -183,15 +183,14 @@
     
     <!-- JavaScript -->
     <script src="static/jquery-3.2.1.min.js"></script>
+    <script src="js/parallaxie.js"></script>
     <script src="vendors/bootstrap/js/popper.min.js"></script>
     <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
-
     <script src="vendors/slick/slick.min.js"></script>
-    <script src="js/parallaxie.js"></script>
-     <script src="vendors/swiper/js/swiper.min.js"></script>
-    <script src="vendors/wow/wow.min.js"></script>
-    
+    <script src="vendors/swiper/js/swiper.min.js"></script>
+    <script src="vendors/wow/wow.min.js"></script> 
     <script src="js/main.js?v=5"></script>
+    
 </body>
 
 </html>

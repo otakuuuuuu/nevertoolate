@@ -1,3 +1,8 @@
+/* 
+ * Linked to map.php
+ * Last Modified: 27 May 2020
+*/
+
 window.onload = function() {
     if (!('remove' in Element.prototype)) {
         Element.prototype.remove = function() {
@@ -43,8 +48,7 @@ window.onload = function() {
           });
           // Initialize the list  
       });
-    
-    
+     
       var locationDiv1 = document.getElementById("location1");
       locationDiv1.onclick=function() {
         document.getElementById("drop").innerHTML = "Dietitian"
@@ -63,8 +67,7 @@ window.onload = function() {
             
         } 
         buildLocationList(place1);
-    
-    
+       
         //remove the marker
         var re = document.getElementsByClassName('markerred mapboxgl-marker mapboxgl-marker-anchor-center'); 
         for (var i = re.length - 1;i >= 0;i--) { 
@@ -207,7 +210,7 @@ window.onload = function() {
     buildLocationList(place3);
     
     
-        // Initialize the list
+      // Initialize the list
     
       //remove the marker
     

@@ -16,8 +16,6 @@
     };
     navbarFixed();
 
-    
-    
     function parallax() {
         var windowWidth = $(window).width();
         if ($(".parallax_effect").length){
@@ -29,8 +27,6 @@
         }
     }
     parallax();
-    
-    
     
     function Slider_one() {
         var carousel = $("#main_slider");
@@ -53,8 +49,6 @@
         }
     }
     Slider_one();
-    
-
     
     /*--------- WOW js-----------*/
      function bodyScrollAnimation() {

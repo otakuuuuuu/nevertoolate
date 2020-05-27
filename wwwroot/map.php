@@ -127,13 +127,12 @@
     <script src="static/jquery-3.2.1.min.js"></script>
     <script src="vendors/bootstrap/js/popper.min.js"></script>
     <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
-
     <script src="vendors/slick/slick.min.js"></script>
     <script src="js/parallaxie.js"></script>
     <script src="vendors/swiper/js/swiper.min.js"></script>
-    <script src="vendors/wow/wow.min.js"></script>
-    
+    <script src="vendors/wow/wow.min.js"></script>   
     <script src="js/main.js?v=5"></script>
+    
 </body>
 
 </html>

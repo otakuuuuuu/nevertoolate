@@ -1,6 +1,10 @@
-//
+/* 
+ * Linked to calculator.php
+ * Last Modified: 27 May 2020
+*/
+
 var foodList=new Array();
-window.onload = (function(){
+window.onload = (function(){ //Search for food outcomes
     $(".input_clear").click(function(){  
     $(this).parent().find('input').val('');  
     $(this).hide();
@@ -19,16 +23,19 @@ window.onload = (function(){
               dataType:"json",
               data:{keywords:$("#stuSearch").val()},
               success:function(feedbackdata) {
+                  // Show food items according to the input
                   $("#autoBox").html(""); 
                   $("#autoBox").show();
                   for(i = 0;i < feedbackdata.length;i++) {
                       $("#autoBox").append("<li class='col-md-12'>"+feedbackdata[i]['Descrip']+"</li>");
                   }
+                  // Choose the food item from database
                   $("#autoBox li").on("click",function(){
                       $("#stuSearch").val($(this).text());
                       $("#autoBox").hide();
                   })
-                  $("#autoBox").append("<li style='text-align:right'>close</li>");
+                  // Close the search outcomes
+                  $("#autoBox").append("<li style='text-align:right'>Close</li>");
                   $("#autoBox li:last").on("click",function(){
                   $("#autoBox").hide();
                   })
@@ -38,7 +45,7 @@ window.onload = (function(){
         })
   })
 
-function add(){
+function add(){ // Add food items and show the detail amount of nutrients
      if (document.getElementById("total")!=null) {
         totaldelete()
         }
@@ -54,8 +61,8 @@ function add(){
                 foodList.push(feedbackdata);
                 for(i = 0;i < feedbackdata.length;i++) {      
                     var idLength = $("#idcount").val();
-                    var b = parseFloat(idLength)
-                    var j = b; 
+                    var b = parseFloat(idLength) 
+                    var j = b; // j is current position
                     var listings = document.getElementById('listings');
                     var listing = listings.appendChild(document.createElement('div'));
                     listing.className = 'item ';
@@ -84,6 +91,7 @@ function add(){
                             else {
                                 quantity = clickedListing[0].quantity;
                             }
+                            // Layout of the nutrients in table style
                             x = "<table class='table table-bordered col-md-12' id='appends'><tr><td>Energy(Calories)"+"&nbsp;<img src='img/bookgreen.png' id='shabi' alt='' onclick='CheckValueDetail(1)'/>"
                             +"</td><td>"+clickedListing[0]['Energy_kcal']+ "</td></tr>"+"<tr><td>Protein(g)"+"&nbsp;<img src='img/bookgreen.png' id='shabi' alt='' onclick='CheckValueDetail(2)'/>"
                             +"</td><td>"+clickedListing[0]['Protein_g'] + "</td></tr>"+"<tr><td>Fat(g)"+"&nbsp;<img src='img/bookgreen.png' id='shabi' alt='' onclick='CheckValueDetail(3)'/>"
@@ -93,6 +101,7 @@ function add(){
                             +"</td><td>"+clickedListing[0]['Fiber_g']+ "</td></tr><tr><td>Quantity(*serving)"+"</td><td>"+"<input type='text' id ='food' value='"+quantity+"'/>"+ "</td></tr>"
                             +"<tr><td>"+ "<button class='btn btn-info btn-search' id ='"+j+"' style='margin-left:3px' onclick='tabledelete("+j +")'>Delete</button>"+ "</td></tr></table>";
                             $("#tb").append(x);
+                            // Describe what is serving
                             var serving;
                             serving="<p id='appends1'>* Serving size may vary according to ingredient. Click <a href='https://www.eatforhealth.gov.au/food-essentials/how-much-do-we-need-each-day/serve-sizes'><u>here</u></a> to understand serving size better.</p>";
                             $("#tb").append(serving);
@@ -100,18 +109,19 @@ function add(){
                             if($("#food").val().length>0) {
                                 var index =$("#food").val();
                                 var nu = parseFloat(index)
-                            if (!nu) {
-                                alert("Please input a number")
-                                $("#food").val()="1";          
-                            }
-                            else if(nu < 0.0) {
-                                alert("Please input a positive number")
-                                $("#food").val()="1";
-                            }
-                            else {
-                                clickedListing[0].quantity = nu; 
-                                quality1.innerHTML="Quantity: "+nu; 
-                            }
+                                // Different case when input the quantity
+                                if (!nu) {
+                                    alert("Please input a number")
+                                    $("#food").val()="1";          
+                                }
+                                else if(nu < 0.0) {
+                                    alert("Please input a positive number")
+                                    $("#food").val()="1";
+                                }
+                                else {
+                                    clickedListing[0].quantity = nu; 
+                                    quality1.innerHTML="Quantity: "+nu; 
+                                }
                             }
                             })
                             // 3. Highlight listing in sidebar (and remove highlight for all other listings)
@@ -128,7 +138,7 @@ function add(){
                      }
                  });
             }
-            function count(){
+            function count(){ // Store the total amount of each nutrient
                 if (document.getElementById("deleteindex") != null) {
                     deletecount();
                 }
@@ -138,10 +148,7 @@ function add(){
                 var Carb_g = 0.0;
                 var Sugar_g = 0.0;
                 var Fiber_g = 0.0;
-                var VitA_mcg = 0.0;
-                var VitC_mg = 0.0;
-                var VitE_mg = 0.0;
-                var Calcium_mg = 0.0;
+                
                 for(var i = 0,rows=foodList.length; i < rows; i++) {
                     var kcal = parseFloat(foodList[i][0]['Energy_kcal']);
                     var nu = parseFloat(foodList[i][0]['quantity']);
@@ -157,6 +164,7 @@ function add(){
                     count = parseFloat(foodList[i][0]['Fiber_g']);
                     Fiber_g = Fiber_g + count*nu;
                 }
+                // Keep all the amount in two decimal, for the amount such as "0.000023", we will show "<0.01" instead of "0.00".
                 Energy_kcal = Energy_kcal.toFixed(2);
                         if (Energy_kcal == 0.00)
                         {Energy_kcal = "<0.01"}
@@ -190,6 +198,7 @@ function add(){
                         if (Fiber_g == 0.00)
                             {Fiber_g = "<0.01"}
                          }
+                         // Daily Recommend Intake for Australian women aged in 50~65
                          var floatNumber = parseFloat(Energy_kcal); 
                          var eng = "";
                          var eng1 = "";
@@ -355,7 +364,8 @@ function add(){
                                Fiber="danger";
                                Fiber1 = "Excessive";
                          }
-                    }  
+                    }
+                    // Traffic Light System  
                     document.getElementById("value").innerHTML=Energy_kcal;
                     var prec = Energy_kcal/3000;
                     prec = prec.toFixed(2);
@@ -534,24 +544,24 @@ function add(){
                         console.log(i); 
                         }
                 }
-
+                // Read detail of each nutrient
                 function CheckValueDetail(e){
-                    if(e==1){
+                    if(e == 1) {
                     alert("Energy is not a nutrient but is required in the body for metabolic processes, physiological functions, muscular activity, heat production, growth and synthesis of new tissues. It is released from food components by oxidation. The main sources of energy are carbohydrates, proteins, fats and, to a lesser degree, alcohol.")
                     }
-                    else if (e==2){
+                    else if (e == 2) {
                            alert("Protein occurs in all living cells and has both functional and structural properties. Amino acids, assembled in long chains, are the building blocks of protein. Of the 20 amino acids found in proteins, some can be made by the body while others are essential in the diet. Amino acids are used for the synthesis of body proteins and other metabolites and can also be used as a source of dietary energy. The proteins of the body are continually being broken down and resynthesised in a process called protein turnover.")
                     }
-                        else if (e==3){
+                        else if (e == 3) {
                           alert("There are three major types of naturally-occurring fatty acids - saturated, cis-monounsaturated and cis-polyunsaturated. A fourth form, the trans fatty acids, are produced by partial hydrogenation of polyunsaturated oils in food processing and they also occur naturally in ruminant animal foods. Saturated fats are found mainly in animal-based foods and polyunsaturates and monounsaturates predominate in plant-based foods.")
                     }
-                        else if (e==4){
+                        else if (e == 4) {
                          alert("The primary role of dietary carbohydrate is the provision of energy to cells, particularly the brain that requires glucose for its metabolism. Other nutrients (eg fat , protein and alcohol) can provide energy but there are good reasons to limit the proportion of energy provided by these nutrients as discussed in the chronic disease section. Carbohydrate is also necessary to avoid ketoacidosis.")
                     }
-                        else if (e==5){
+                        else if (e == 5) {
                             alert("Eating sugar gives your brain a huge surge of a feel-good chemical called dopamine, which explains why you’re more likely to crave a candy bar at 3 p.m. than an apple or a carrot. Because whole foods like fruits and veggies don’t cause the brain to release as much dopamine, your brain starts to need more and more sugar to get that same feeling of pleasure. This causes those “gotta-have-it” feelings for your after-dinner ice cream that are so hard to tame.")
                     }
-                        else if (e==6){
+                        else if (e == 6) {
                             alert("Fiber is a type of carbohydrate that the body can't digest. Though most carbohydrates are broken down into sugar molecules, fiber cannot be broken down into sugar molecules, and instead it passes through the body undigested. Fiber helps regulate the body's use of sugars, helping to keep hunger and blood sugar in check. Adequate dietary fibre is essential for proper functioning of the gut and has also been related to risk reduction for a number of chronic diseases including heart disease, certain cancers and diabetes.")
                     }
 }
