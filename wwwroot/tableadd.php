@@ -12,7 +12,19 @@ if (mysqli_connect_errno($conn)) {
 die('Failed to connect to MySQL: '.mysqli_connect_error());
 }
 $keywords=$_POST['keywords'];
- $ins="select * from nutrition where Descrip = '$keywords'"; 
+ $arr=explode("'", $keywords);
+ if(sizeof($arr)>1){
+  $first = $arr[0];
+  $ins="select * from nutrition where Descrip like '%$first%'"; 
+  for($x=1;$x<sizeof($arr);$x++){
+    $index = $arr[$x];
+    $ins.="AND Descrip like '%$index%'";
+  }
+  $ins.="order by LENGTH(Descrip) LIMIT 1";
+}
+  else{
+    $ins="select * from nutrition where Descrip = '$keywords'"; 
+  }
  $resu=mysqli_query($conn,$ins);
    if($resu)
 

@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="vendors/flaticon/flaticon.css?v=2">
+    <link rel="stylesheet" href="vendors/flaticon/flaticon.css?v=3">
     <link rel="stylesheet" href="vendors/animation/animate.css">
     <!-- Page CSS -->
     <link rel="stylesheet" href="vendors/swiper/css/swiper.min.css"> 
