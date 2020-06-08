@@ -1,0 +1,293 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.909691,-37.745509 ]
+    },
+    "properties": {
+    "Theme":"Farmers' market",
+    "Sub_Theme":"Farmers' market",
+    "Feature_Name":"North Essendon Farmers Market",
+    "Address":"Lincoln Rd, Essendon VIC 3040",
+    "City":"Essendon",
+    "Website":"rfm.net.au",
+    "Phone":"0419 351 878"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.962563,-37.759625 ]
+    },
+    "properties": {
+    "Theme":"Farmers' market",
+    "Sub_Theme":"Farmers' market",
+    "Feature_Name":"Brunswick Market",
+    "Address":"655 Sydney Rd, Brunswick VIC 3056",
+    "City":"Brunswick",
+    "Website":"",
+    "Phone":"0419 564 767"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.031193,-37.775479 ]
+    },
+    "properties": {
+    "Theme":"Farmers' market",
+    "Sub_Theme":"Farmers' market",
+    "Feature_Name":"Alphington Farmers Market",
+    "Address":"Melbourne Innovation Centre, 2 Wingrove St, Alphington VIC 3078",
+    "City":"Alphington",
+    "Website":"mfm.com.au",
+    "Phone":"(03) 9499 3400"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.972828,-37.789589 ]
+    },
+    "properties": {
+    "Theme":"Farmers' market",
+    "Sub_Theme":"Farmers' market",
+    "Feature_Name":"Carlton Farmers Market",
+    "Address":"Carlton North Primary School O'Grady Street &, Canning St, Carlton North VIC 3054",
+    "City":"Carlton North",
+    "Website":"mfm.com.au",
+    "Phone":"(03) 9499 3400"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.933002,-37.779821 ]
+    },
+    "properties": {
+    "Theme":"Farmers' market",
+    "Sub_Theme":"Farmers' market",
+    "Feature_Name":"Flemington Farmers' Market",
+    "Address":"175 Mt Alexander Rd, Flemington VIC 3032",
+    "City":"Flemington",
+    "Website":"flemingtonfarmersmarket.com.au",
+    "Phone":"0407 411 198"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.928952,-37.786159 ]
+    },
+    "properties": {
+    "Theme":"Farmers' market",
+    "Sub_Theme":"Farmers' market",
+    "Feature_Name":"Kensington Market",
+    "Address":"30-34 Bellair St, Kensington VIC 3031",
+    "City":"Kensington",
+    "Website":"kensingtonmarket.com.au",
+    "Phone":"0402 752 257"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.887753,-37.813287 ]
+    },
+    "properties": {
+    "Theme":"Farmers' market",
+    "Sub_Theme":"Farmers' market",
+    "Feature_Name":"Yarraville Village Farmers Market",
+    "Address":"48 Fehon St, Yarraville VIC 3013",
+    "City":"Yarraville",
+    "Website":"",
+    "Phone":"0412 910 496"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.901486,-37.861550 ]
+    },
+    "properties": {
+    "Theme":"Farmers' market",
+    "Sub_Theme":"Farmers' market",
+    "Feature_Name":"Williamstown Farmers' Market",
+    "Address":"Robertson Reserve, Williamstown VIC 3016",
+    "City":"Williamstown",
+    "Website":"",
+    "Phone":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.946896,-37.841755 ]
+    },
+    "properties": {
+    "Theme":"Farmers' market",
+    "Sub_Theme":"Farmers' market",
+    "Feature_Name":"Gasworks Farmers' Market",
+    "Address":"Gasworks Arts Park, 21 Graham St, Albert Park VIC 3206",
+    "City":"Albert Park",
+    "Website":"rfm.net.au",
+    "Phone":"(03) 9419 0826"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.956836,-37.806440 ]
+    },
+    "properties": {
+    "Theme":"Farmers' market",
+    "Sub_Theme":"Farmers' market",
+    "Feature_Name":"Queen Victoria Market",
+    "Address":"Queen St, Melbourne VIC 3000",
+    "City":"Melbourne",
+    "Website":"qvm.com.au",
+    "Phone":"(03) 9320 5822"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.001208,-37.816911 ]
+    },
+    "properties": {
+    "Theme":"Farmers' market",
+    "Sub_Theme":"Farmers' market",
+    "Feature_Name":"Gleadell Street Market",
+    "Address":"5 Gleadell St, Richmond VIC 3121",
+    "City":"Richmond",
+    "Website":"yarracity.vic.gov.au",
+    "Phone":"(03) 9205 5555"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.991604,-37.844827 ]
+    },
+    "properties": {
+    "Theme":"Farmers' market",
+    "Sub_Theme":"Farmers' market",
+    "Feature_Name":"Prahran Market",
+    "Address":"163 Commercial Rd, South Yarra VIC 3141",
+    "City":"South Yarra",
+    "Website":"prahranmarket.com.au",
+    "Phone":"(03) 8290 8220"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.040970,-37.840580 ]
+    },
+    "properties": {
+    "Theme":"Farmers' market",
+    "Sub_Theme":"Farmers' market",
+    "Feature_Name":"Boroondara Farmers Market",
+    "Address":"Patterson Reserve, East, Auburn Rd, Hawthorn VIC 3122",
+    "City":"Hawthorn",
+    "Website":"boroondara.vic.gov.au",
+    "Phone":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.978926,-37.867273 ]
+    },
+    "properties": {
+    "Theme":"Farmers' market",
+    "Sub_Theme":"Farmers' market",
+    "Feature_Name":"Veg Out St Kilda Farmers' Market",
+    "Address":"12 Chaucer St, St Kilda VIC 3182",
+    "City":"St Kilda",
+    "Website":"vegoutfarmersmarket.org.au",
+    "Phone":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.984881,-37.880767 ]
+    },
+    "properties": {
+    "Theme":"Farmers' market",
+    "Sub_Theme":"Farmers' market",
+    "Feature_Name":"Elwood Farmers' Market",
+    "Address":"101 Glen Huntly Rd, Elwood VIC 3184",
+    "City":"Elwood",
+    "Website":"",
+    "Phone":"0407 411 198"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.070071,-37.932676 ]
+    },
+    "properties": {
+    "Theme":"Farmers' market",
+    "Sub_Theme":"Farmers' market",
+    "Feature_Name":"Bentleigh Farmers Market",
+    "Address":"90 Bignell Rd, Bentleigh East VIC 3165",
+    "City":"Bentleigh East",
+    "Website":"bentleighfarmersmarket.org.au",
+    "Phone":"(03) 9570 3525"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.149786,-37.711907 ]
+    },
+    "properties": {
+    "Theme":"Farmers' market",
+    "Sub_Theme":"Farmers' market",
+    "Feature_Name":"Eltham Farmers' Market",
+    "Address":"10-18 Arthur St, Eltham VIC 3095",
+    "City":"Eltham",
+    "Website":"elthamfm.org.au",
+    "Phone":"0407 431 366"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.955852,-37.831838 ]
+    },
+    "properties": {
+    "Theme":"Farmers' market",
+    "Sub_Theme":"Farmers' market",
+    "Feature_Name":"South Melbourne Market",
+    "Address":"322-326 Coventry St, South Melbourne VIC 3205",
+    "City":"South Melbourne",
+    "Website":"southmelbournemarket.com.au",
+    "Phone":"(03) 9209 6295"
+    }
+  }
+]
+};
